@@ -1,2 +1,2 @@
 # esolangs
-Big amount of esolangs (interpreters, transpilers, snippets of code, etc.)
+Trying to get big amount of esolangs (interpreters, transpilers, snippets of code, etc.)
