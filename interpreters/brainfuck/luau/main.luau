@@ -32,7 +32,7 @@ function module.main(code: str, input: str): str
         elseif char == "]" then
             if tape[ptr] ~= 0 then pc = jumps[pc] end
         end
-        pc = pc + 1
+        pc += 1
     end
     return output
 end
