@@ -1,5 +1,6 @@
-if #arg ~= 2:
+if #arg ~= 2 then
     error("expected 1 argument, not " .. #arg .. ", usage: " .. arg[0] .. " <file>")
+end
 print("local acc = 0")
 for i = 1, #arg[1] do
     local chr = string.sub(arg[1], i, i)
